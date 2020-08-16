@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reyes</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-      text-align: center;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    a {
-      color: #61dafb;
-    }
-    .header {
-      background-color: #282c34;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: calc(10px + 2vmin);
-      color: white;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reyes</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+          'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      a {
+        color: #61dafb;
+      }
+      h4 {
+        margin-bottom: 0;
+      }
+      p:first-of-type {
+        margin-top: 0;
+        margin-bottom: 1.5em;
+      }
+      .smaller {
+        font-size: 0.8em;
+      }
+      .header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+      }
+      .subtext {
+        font-size: 0.8em;
+        margin-top: 1.5em;
+      }
+      .faded {
+        opacity: 0.2;
+      }
+    </style>
+  </head>
+  <body>
     <div>
       <header class="header">
-        <p>
-          Reyes
+        <img src="https://pbs.twimg.com/profile_images/1432821999/avatar_square.png" />
+        <h4>
+          C# &bull; JavaScript &bull; Steak
+        </h4>
+        <p class="smaller">
+          <br />
+          Check out my <a href="http://blog.mikereyes.me/">Blog</a>,
+          <a href="https://github.com/michaelbreyes">Github</a>,
+          <a href="https://www.linkedin.com/in/michaelbreyes/">LinkedIn</a>
         </p>
+        <div class="subtext">
+          <p>
+            <span class="faded">Currently dining on</span>
+            <br />React, Easy-Peasy, Formik, Storybook, <br />ChartJs, Testing Library, .Net Core 3
+          </p>
+          <p><span class="faded">Marinating</span><br />Recoil, Lerna, Suspense, Cypress, MDX</p>
+          <p><span class="faded">Favorite cuts</span><br />Ribeye, NY Strip, Picanha, Prime Rib</p>
+        </div>
       </header>
     </div>
-</body>
+  </body>
 </html>
